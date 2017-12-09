@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM  from "react-dom";
 
-const App =() => {
+
+class App extends React.Component {
+  render() {
     return <div>Hello Parceljs!</div>
+  }
 }
 
 ReactDOM.render(<App />, document.querySelector("#root"))
